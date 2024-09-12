@@ -1,0 +1,16 @@
+<div class="body">
+    <header>
+        <h1>Logueate!</h1>
+    </header>
+    <main>
+        <form id="login_form" class="form_class">
+            <div class="form_div">
+                <label>Username:</label>
+                <input class="field_class" name="login_txt" type="text" placeholder="Usuario" [(ngModel)]="usuario.nombre" autofocus>
+                <label>Password:</label>
+                <input id="pass" class="field_class" name="password_txt" type="password" placeholder="Clave" [(ngModel)]="usuario.password">
+                <button class="submit_class" form="login_form" (click)="validarLogin()">Entrar</button>
+            </div>
+        </form>
+    </main>
+</div>
