@@ -9,6 +9,7 @@ public/*
 /public
 firebase.json
 .firebaserc
+src/app/enviromentConfig.ts
 # Node
 /node_modules
 npm-debug.log
@@ -46,3 +47,7 @@ testem.log
 Thumbs.db
 
 *.jpeg
+# Firebase
+.firebase
+*-debug.log
+.runtimeconfig.json
